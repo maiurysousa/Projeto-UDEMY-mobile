@@ -29,8 +29,27 @@ const styles = StyleSheet.create({
         fontSize: 18,
         color: '#072227',
         opacity: 0.5
-    
+    },
 
+    content: {
+        width: '100%',
+        marginTop: 30,
+    },
+
+    title: {
+        width: '100%',
+        borderBottomWidth: 1,
+        borderColor: '#072227', 
+        alignItems: 'center'
+    },
+
+    titleText:{
+        color: '#072227',
+        fontSize: 18,
+        position: 'relative',
+        top: 11,
+        backgroundColor: '#FFF',
+        paddingHorizontal: 10
     }
 
 
